@@ -1,5 +1,5 @@
 # monitor
-System monitor scripts written in Python.
+System monitoring scripts written in Python.
 
 This project was started many years ago as a way to extend [Cacti](https://github.com/cacti/), then [Nagios](https://github.com/NagiosEnterprises/nagioscore), and lately [Zabbix](https://github.com/zabbix/zabbix).
 
