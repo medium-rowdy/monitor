@@ -7,7 +7,9 @@ import datetime
 # configure these paths:
 MON_DIR = '/opt/monitor'
 LOGFILE = '/var/log/monitor.log'
-PIDFILE = os.path.join(MON_DIR, 'monitor.pid'
+PIDFILE = os.path.join(MON_DIR, 'monitor.pid')
+
+SYSTEMD = True # use False if not running under systemd
 
 # let USERPROG be the main function of your project
 import server
@@ -43,7 +45,7 @@ def main():
 
 if __name__ == '__main__':
     # Possibly this is not required when running as a systemd service ...
-    if 0 == 1:
+    if not(SYSTEMD):
         # do the UNIX double-fork magic, see Stevens' 'Advanced
         # Programming in the UNIX Environment' for details (ISBN 0201563177)
         try:
