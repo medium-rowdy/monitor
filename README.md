@@ -11,5 +11,7 @@ Generally the server part requires [psutil](https://github.com/giampaolo/psutil)
 
 The client part needs nothing other than the standard Python libraries.
 
-It was developed on Python 2, but probably works on both Python 2 and 3.
+Server and client communication via XML-RPC - it's simple and unencrypted, but suits the requirements.
+
+It was developed on Python 2 and parts of it were later migrated to Python 3.  Most of it probably works on both Python 2 and 3.
 
