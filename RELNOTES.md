@@ -74,7 +74,7 @@ client: added `get_temp` (for XenServer)
 
 ### 25-Dec-2019 version 0.1.010
 
-server: added `rpi_temp` (RPionly)
+server: added `rpi_temp` (RPi only)
 
 ### 20-Apr-2020 version 0.1.011
 
@@ -83,9 +83,10 @@ server: due to psutil changes, replaced `get_process_list` with `process_iter`
 ### 22-Nov-2020 version 0.1.012
 
 server: added `rpi_room_temp` (RPi only)
-client: added `rpi_room_temp` (RPi only)
-        import `xmlrpclib` (Python 2) or `xmlrpc.client` (Python 3)
-        replace `print` with `Writeln()` for Python 2/3 compatibility
+
+client: * added `rpi_room_temp` (RPi only)
+        * import `xmlrpclib` (Python 2) or `xmlrpc.client` (Python 3)
+        * replace `print` with `Writeln()` for Python 2/3 compatibility
 
 ### 08-Dec-2020 version 0.1.013
 
